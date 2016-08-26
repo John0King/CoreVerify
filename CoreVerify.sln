@@ -12,14 +12,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CoreVerify", "src\CoreVerify\CoreVerify.xproj", "{20CCA123-BB27-46AD-A566-526B99D104B4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VBS源", "VBS源", "{BA97EA11-02E8-4A8C-96A1-BE5B739DBF79}"
-	ProjectSection(SolutionItems) = preProject
-		..\KAdmin\src\KAdmin.KVerifyCode\源代码\Code.asp = ..\KAdmin\src\KAdmin.KVerifyCode\源代码\Code.asp
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1B29B4CE-EADC-4B47-96E1-9E6BF6AF2CB0}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "verifyCodeTest", "test\verifyCodeTest\verifyCodeTest.xproj", "{6630CAC8-B3EE-4C92-8FAA-935E69DB2620}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Asp", "src\Asp\", "{14C7F98D-19D4-4B0F-9BCB-992D9BA77317}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_43416"
+		Debug.AspNetCompiler.PhysicalPath = "src\Asp\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_43416\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_43416"
+		Release.AspNetCompiler.PhysicalPath = "src\Asp\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_43416\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "43416"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +50,10 @@ Global
 		{6630CAC8-B3EE-4C92-8FAA-935E69DB2620}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6630CAC8-B3EE-4C92-8FAA-935E69DB2620}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6630CAC8-B3EE-4C92-8FAA-935E69DB2620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14C7F98D-19D4-4B0F-9BCB-992D9BA77317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C7F98D-19D4-4B0F-9BCB-992D9BA77317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C7F98D-19D4-4B0F-9BCB-992D9BA77317}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C7F98D-19D4-4B0F-9BCB-992D9BA77317}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +61,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{20CCA123-BB27-46AD-A566-526B99D104B4} = {49CB8054-C41C-44DF-85CD-1AA2057DA8FE}
 		{6630CAC8-B3EE-4C92-8FAA-935E69DB2620} = {1B29B4CE-EADC-4B47-96E1-9E6BF6AF2CB0}
+		{14C7F98D-19D4-4B0F-9BCB-992D9BA77317} = {49CB8054-C41C-44DF-85CD-1AA2057DA8FE}
 	EndGlobalSection
 EndGlobal
