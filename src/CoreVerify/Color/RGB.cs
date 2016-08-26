@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KAdmin.KVerifyCode.Color
+namespace CoreVerify.Color
 {
     public class RGB
     {

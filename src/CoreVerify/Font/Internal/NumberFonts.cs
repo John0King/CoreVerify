@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace KAdmin.KVerifyCode.Font.Internal
+namespace CoreVerify.Font.Internal
 {
     public class NumberFonts:IBitFont
     {
